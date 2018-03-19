@@ -26,5 +26,11 @@ namespace ConsoleMathsNUnit.test
             int result = helper.Subtract(20, 10);
             Assert.AreEqual(10, result);
         }
+
+        [TestCase]
+        public void UpdateGitTest()
+        {
+            Assert.AreEqual(10, 10);
+        }
     }
 }
